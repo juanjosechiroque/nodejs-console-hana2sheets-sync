@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-console-hana2sheets-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/sheets": "^5.0.5",
+    "@sap/hana-client": "^2.20.15",
+    "googleapis": "^134.0.0",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
