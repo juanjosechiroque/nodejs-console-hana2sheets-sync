@@ -5,7 +5,8 @@
   "main": "test.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +14,7 @@
   "dependencies": {
     "@googleapis/sheets": "^5.0.5",
     "@sap/hana-client": "^2.20.15",
-    "googleapis": "^134.0.0",
-    "mysql2": "^3.9.2"
+    "googleapis": "^134.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
